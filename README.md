@@ -1,27 +1,71 @@
-# ConsumeService
+# Code Challenge - Service Integration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+This project is a code challenge that primarily aims to integrate a service call.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The project consists of an Angular application that displays character information. The information is obtained through a service call and is displayed on a card in the user interface.
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Button that makes a service call when clicked.
+- Section that displays a card with the current character's information.
+- The card displays the character's image, name, status, species, and gender.
 
-## Build
+## Core Code
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+The `app.component.html` file contains the core code of the application. It includes a button that, when clicked, calls the `onClick()` function. There is also a section that displays a card with the current character's information, if it exists.
 
-## Running unit tests
+## Installation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To install and run the project, follow these steps:
 
-## Running end-to-end tests
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install the dependencies.
+4. Run `ng serve` to start the development server.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contribution
 
-## Further help
+Contributions are welcome. Please open an issue or make a pull request with your suggestions.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
+
+This project is licensed under the terms of the MIT license.
+
+---
+
+# Desafío de Código - Integración de Servicio
+
+Este proyecto es un desafío de código que tiene como objetivo principal integrar una llamada a un servicio.
+
+## Descripción
+
+El proyecto consiste en una aplicación Angular que muestra información de un personaje. La información se obtiene a través de una llamada a un servicio y se muestra en una tarjeta en la interfaz de usuario.
+
+## Características
+
+- Botón que al hacer clic realiza una llamada a un servicio.
+- Sección que muestra una tarjeta con la información del personaje actual.
+- La tarjeta muestra la imagen, el nombre, el estado, la especie y el género del personaje.
+
+## Código Principal
+
+El archivo `app.component.html` contiene el código principal de la aplicación. Incluye un botón que, al hacer clic, llama a la función `onClick()`. También hay una sección que muestra una tarjeta con la información del personaje actual, si existe.
+
+## Instalación
+
+Para instalar y ejecutar el proyecto, siga estos pasos:
+
+1. Clonar el repositorio.
+2. Navegar hasta el directorio del proyecto.
+3. Ejecutar `npm install` para instalar las dependencias.
+4. Ejecutar `ng serve` para iniciar el servidor de desarrollo.
+
+## Contribución
+
+Las contribuciones son bienvenidas. Por favor, abra un problema o haga un pull request con sus sugerencias.
+
+## Licencia
+
+Este proyecto está licenciado bajo los términos de la licencia MIT.
